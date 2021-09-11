@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+:root{
+    --cor01: #454545;
+    --cor02:#98BBFF;
+
+    --fontepadrao:'Oswald', sans-serif;
+}
+
+*{
+    font-family: var(--fontepadrao);
+    margin: 0;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+header {
+    background-color: var(--cor01);
+    
+}
+header h1{
+
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    font-size:2em;
+    color: #ffffff;
+    padding: 13px;
+}
+nav{
+    background-color: var(--cor01);
+    text-align: center;
+    padding-bottom: 7px;
+}
+.botao{
+    border-radius: 10px;
+    color: black;
+    text-decoration: none;
+    padding: 3px;
+    margin-right: 10px;
+    background-color: yellow;
+}
+
+main{
+    background-image: linear-gradient(to right, #98BBFF, #98baff8a);
+    text-align: center;
+}
+h2{
+    padding: 50px;
+}
+
+article{
+    padding: 20px;
+    text-align: justify;
+
+}
+article h3{
+    text-align: center;
+    padding: 20px;
+    
+}
+ul{
+    padding-left: 0;
+    list-style: none;
+}
+
+article .acolhedores{
+    background-color: rgba(238, 130, 238, 0.74);
+    padding: 10px;
+    
+}
+article .producao{
+    background-color: rgba(78, 78, 241, 0.74);
+    padding: 10px;
+    
+}
+article .tecnologia{
+    background-color: rgba(192, 192, 192, 0.74);
+    padding: 10px;
+    
+}
+
+.form{
+    
+    width:600px;
+    height:950px;
+}
+
+@media (max-width: 600px)
+{
+  .form{
+      width: 350px;
+      height:  1010px;
+  }
+
+}
+
+footer{
+    text-align: center;
+    background-color: var(--cor01);
+    color: #f4f4f4;
+}
+footer a{
+    text-decoration: none;
+    color: #f4f4f4;
+}
