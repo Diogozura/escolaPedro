@@ -84,14 +84,15 @@ article .tecnologia{
 .form{
     
     width:600px;
-    height:950px;
+    height:300px;
+
 }
 
 @media (max-width: 600px)
 {
   .form{
-      width: 350px;
-      height:  auto;
+      width: 100%;
+      height: 500px;
   }
 
 }

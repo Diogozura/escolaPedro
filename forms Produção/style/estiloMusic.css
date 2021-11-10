@@ -55,7 +55,7 @@ article{
     text-align: justify;
 
 }
-article h3{
+article h2,p{
     text-align: center;
     padding: 20px;
     
@@ -82,16 +82,17 @@ article .tecnologia{
 }
 
 .form{
-    
     width:600px;
-    height:950px;
+    height:400px;
 }
 
 @media (max-width: 600px)
 {
   .form{
-      width: 350px;
-      height:  auto;
+      width: 340px;
+      height:  300px;
+
+      margin: 0px;
   }
 
 }
