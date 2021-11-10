@@ -1,4 +1,4 @@
-// alert("Esse site é apenas um exemplo")
+alert("Esse site é apenas um exemplo")
 
 const titulo = document.querySelector("#titulo")
 const descricao = document.querySelector("#descricao");
